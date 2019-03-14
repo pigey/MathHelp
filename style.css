@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color:  #143e26;
+}
+
+h1{
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  margin-top: 10%;
+}
+
+@font-face {
+font-family: "pls";
+src: url("fonts/Letspray.woff");
+
+}
+.header{
+  border-bottom: solid 2px white;
+width: 100%;
+margin-top: 0.5%;
+position: relative;
+float: left;
+}
+.logo{
+
+  margin-top: 0.2%;
+  width: 10%;
+  height: 12vh;
+  margin-left: 1%;
+  float: left;
+}
+
+#banner{
+  height: 100%;
+  width: 100%;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}
+#pol{
+  height: 100%;
+  width: 100%;
+}
+.banner{
+
+  margin-top: 0.2%;
+  margin-left: 1%;
+  width: 75.5%;
+  height: 12vh;
+  float: left;
+}
+
+
+
+.about{
+
+  margin-top: 0.2%;
+  width: 10%;
+  height: 12vh;
+  margin-left: 1%;
+  float: left;
+}
+
+.HiddenText{
+
+
+  width: 20%;
+  height: 40vh;
+  margin-left: 8%;
+  margin-top: 4%;
+  position: relative;
+  float: left;
+}
+
+
+.magister{
+
+  width: 30%;
+  height: 80vh;
+  margin-left: 0.1%;
+  margin-top: 1%;
+position: relative;
+  float: left;
+}
+
+.Pol1{
+
+  width: 30%;
+  height: 18vh;
+  margin-top: 4%;
+  margin-left: 7%;
+  position: relative;
+  float: left;
+}
+
+.Pol2{
+
+  width: 30%;
+  height: 18vh;
+  margin-top: 4%;
+  margin-left: 7%;
+  position: relative;
+  float: left;
+}
+
+.Pol3{
+
+  width: 30%;
+  height: 18vh;
+  margin-top: 4%;
+  margin-left: 7%;
+  position: relative;
+  float: left;
+}
+
+.magister2{
+  width: 100%;
+  height: 100%;
+}
+/* Här börjar css för andra grads funktionen */
+
+.number{
+  width: 2%;
+  height: 4vh;
+  font-size: 30px;
+  color: white;
+  background-color: #143e26;
+  text-align: center;
+  font-family: "pls";
+}
+#output_text{
+  height: 4vh;
+  font-size: 35px;
+  color: white;
+  background-color: #143e26;
+  text-align: center;
+  font-family: "pls";
+}
+#a{
+margin-left: 40%;
+margin-top: 5%;
+}
+#b1{
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#a2{
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+#calculate{
+  margin-left: 40%;
+  width: 9%;
+  height: 4vh;
+  margin-bottom: 3%;
+  font-size: 30px;
+  background-color: #143e26;
+  color: white;
+  font-family: "pls";
+}
+
+#calculate2{
+  margin-left: 40%;
+  width: 15%;
+  height: 4vh;
+  margin-bottom: 3%;
+  font-size: 30px;
+  background-color: #143e26;
+  color: white;
+  font-family: "pls";
+}
+
+/* Här börjar lösnings svaren */
