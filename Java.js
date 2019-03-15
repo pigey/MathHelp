@@ -29,9 +29,7 @@ function validate() {
     } else if (isNaN(c)) {
         outputText = "<em>c</em> must be a number!";
     } else {
-        // calculate the result using x = (-b +- sqrt(b^2 - 4ac)) / 2a
-        //var x1 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
-        //var x2 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+        
         bb= b/a;
         cc= c/a;
         var k = bb/2;
@@ -49,7 +47,7 @@ function validate() {
   }
 
 
-    // output the result (or errors)
+    // output the result
     document.getElementById("output_text").innerHTML = outputText;
 }
 //här slutar andra polynom kod
@@ -85,7 +83,7 @@ else if (c1 >= 0) {
       }
     }
 
-    // output the result (or errors)
+    // output the result
     document.getElementById("output_text").innerHTML = outputText1;
 
 }
@@ -109,9 +107,7 @@ function validate2() {
   } else if (isNaN(c2)) {
       outputText2 = "<em>c</em> must be a number!";
   } else {
-      // calculate the result using x = (-b +- sqrt(b^2 - 4ac)) / 2a
-      //var x1 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
-      //var x2 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+      
       bb2= b2/a2;
       cc2= c2/a2;
       var k2 = bb2/2;
@@ -129,8 +125,8 @@ function validate2() {
 }
 
 
-  // output the result (or errors)
+  // output the result 
   document.getElementById("output_text").innerHTML = outputText2;
 
-  //outputText2 =  "For the equation <strong>" + (a2 == 1 ? "" : a2) + "x\u00B3 + " + (b2 == 1 ? "" : b2) + "x\u00B2" + (c2 ==1 ? "": c2) + "x + " + d2 + " = 0</strong>, x1 is equal to <strong>" + x1 + "</strong> and x2 is equal to <strong>" + x2 + "</strong> x3 is equal to <strong>" + x3 + "</strong>";
+  
   }
