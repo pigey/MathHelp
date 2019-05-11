@@ -29,7 +29,7 @@ function validate() {
     } else if (isNaN(c)) {
         outputText = "<em>c</em> must be a number!";
     } else {
-        
+
         bb= b/a;
         cc= c/a;
         var k = bb/2;
@@ -39,7 +39,7 @@ function validate() {
         var x1 = -k + Math.sqrt(square);
         var x2 = -k - Math.sqrt(square);
 
-        outputText = "För att lösa ekvationen så delar vi " + b +" X + " + c + " med " + a +"<br><br> då får vi X = " + (-bb) + "/2 &plusmn; &radic;(" + (-bb) + "/2)\u00B2+" + (-cc) + "<br><br> det blir " + -k + "&plusmn; &radic; " + (k*k + (-cc)) + "<br><br> detta gör så att vi får ut svaret X1 = " + -k + "+" + Math.sqrt(square).toFixed(4) +  "=" + x1.toFixed(4) + "<br><br> detta gör så att vi får ut svaret X2 = " + -k + "-" + Math.sqrt(square).toFixed(4) + "=" + x2.toFixed(4);
+        outputText = "För att lösa ekvationen så delar vi " + b +" X + " + c + " med " + a +"<br><br> då får vi X = " + (-bb) + "/2 &plusmn; &radic;(" + (-bb) + "/2)<sup>2</sup>+" + (-cc) + "<br><br> det blir " + -k + "&plusmn; &radic; " + (k*k + (-cc)) + "<br><br> detta gör så att vi får ut svaret X<sub>1</sub> = " + -k + "+" + Math.sqrt(square).toFixed(4) +  "=" + x1.toFixed(4) + "<br><br> detta gör så att vi får ut svaret X<sub>2</sub> = " + -k + "-" + Math.sqrt(square).toFixed(4) + "=" + x2.toFixed(4);
     }
     else {
       outputText = "Den här funktionen gör så att den vill ta roten ur" + ' "' +square +'" ' + "vilket vårat program inte kan läsa. <br> Vänligen pröva ett annat tal";
@@ -107,7 +107,7 @@ function validate2() {
   } else if (isNaN(c2)) {
       outputText2 = "<em>c</em> must be a number!";
   } else {
-      
+
       bb2= b2/a2;
       cc2= c2/a2;
       var k2 = bb2/2;
@@ -117,7 +117,7 @@ function validate2() {
       var x12 = -k2 + Math.sqrt(square2);
       var x22 = -k2 - Math.sqrt(square2);
 
-      outputText2 = "Det första som vi gör är att dela allt med X Vilket gör så att det ser ut som en andragradare <br><br> För att lösa ekvationen så delar vi " + b2 +" X + " + c2 + " med " + a2 +"<br><br> då får vi X = " + (-bb2) + "/2 &plusmn; &radic;(" + (-bb2) + "/2)\u00B2+" + (-cc2) + "<br><br> det blir " + -k2 + "&plusmn; &radic; " + (k2*k2 + (-cc2)) + "<br> detta gör så att vi får ut svaret X1 = " + -k2 + "+" + Math.sqrt(square2).toFixed(4) +  "=" + x12.toFixed(4) + "<br><br> detta gör så att vi får ut svaret X2 = " + -k2 + "-" + Math.sqrt(square2).toFixed(4) + "=" + x22.toFixed(4) + "<br><br> x3 är alltid = 0 eftersom alla tal som inte är 0 har med x att göra. ";
+      outputText2 = "Det första som vi gör är att dela allt med X Vilket gör så att det ser ut som en andragradare <br><br> För att lösa ekvationen så delar vi " + b2 +" X + " + c2 + " med " + a2 +"<br><br> då får vi X = " + (-bb2) + "/2 &plusmn; &radic;(" + (-bb2) + "/2)<sup>2</sup>+" + (-cc2) + "<br><br> det blir " + -k2 + "&plusmn; &radic; " + (k2*k2 + (-cc2)) + "<br> detta gör så att vi får ut svaret X<sub>1</sub> = " + -k2 + "+" + Math.sqrt(square2).toFixed(4) +  "=" + x12.toFixed(4) + "<br><br> detta gör så att vi får ut svaret X<sub>2</sub> = " + -k2 + "-" + Math.sqrt(square2).toFixed(4) + "=" + x22.toFixed(4) + "<br><br> X<sub>3</sub> är alltid = 0 eftersom alla tal som inte är 0 har med x att göra. ";
   }
   else {
     outputText2 = "Den här funktionen gör så att den vill ta roten ur" + ' "' +square2 +'" ' + "vilket vårat program inte kan läsa. <br> Vänligen pröva ett annat tal";
@@ -125,8 +125,8 @@ function validate2() {
 }
 
 
-  // output the result 
+  // output the result
   document.getElementById("output_text").innerHTML = outputText2;
 
-  
+
   }
